@@ -1,0 +1,2 @@
+Example curl (after running app.py):
+curl -X POST http://127.0.0.1:5000/predict -H 'Content-Type: application/json' -d '{ "duration": 0.4, "src_bytes": 300, "dst_bytes": 200, "wrong_fragment": 0, "urgent": 0, "hot": 1, "num_failed_logins": 0, "count": 12, "srv_count": 9, "serror_rate": 0.01, "srv_serror_rate": 0.02, "dst_host_srv_count": 5, "dst_host_diff_srv_rate": 0.1 }'
